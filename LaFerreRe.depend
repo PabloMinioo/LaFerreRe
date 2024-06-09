@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1717942526 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\fecha.cpp
+	<ctime>
+	<iostream>
+	"Fecha.h"
+
+1717942526 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\fecha.h
+	<ctime>
+
+1717944136 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\aplicacion.cpp
+	<string>
+	<iostream>
+	"Aplicacion.h"
+	<cstring>
+
+1717944136 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\aplicacion.h
+	"InventarioArchivo.h"
+	"VentasArchivo.h"
+
+1717943914 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\inventarioarchivo.h
+	<string>
+	"Producto.h"
+
+1717944174 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\producto.h
+	<string>
+
+1717943914 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\ventasarchivo.h
+	<string>
+	"Ventas.h"
+
+1717942542 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\ventas.h
+	"Fecha.h"
+
+1717942390 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\producto.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstring>
+	"Producto.h"
+
+1717944259 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\main.cpp
+	<iostream>
+	"Aplicacion.h"
+
