@@ -1,8 +1,9 @@
 #pragma once
 #include <string>
 #include "Producto.h"
+#include "Archivo.h"
 
-class InventarioArchivo {
+class InventarioArchivo: public Archivo {
 private:
     Producto producto;
 public:

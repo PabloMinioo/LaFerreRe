@@ -35,8 +35,7 @@ public:
     void setEstado(bool estado);
     bool getEstado();
 
-    void
     // METODOS
-    cargarVenta();
-    mostrarVenta();
+    Venta cargarVenta();
+    void mostrarVenta(Venta venta);
 };

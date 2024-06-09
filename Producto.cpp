@@ -6,7 +6,7 @@
 
 using namespace std;
 
-/// DESARROLLO DE LOS METODOS DE LA CLASE PRODUCTO
+/// DESARROLLO DE LOS METODOS DE LA CLASE 'Producto'
 // CONSTRUCTOR POR DEFECTO
 Producto::Producto(){
     _idProducto = 0;
@@ -34,6 +34,7 @@ void Producto::setIdProducto(int idProducto){
 int Producto::getIdProducto(){
     return _idProducto;
 }
+
 void Producto::setNombreProducto(string nombreProducto){
     if (nombreProducto.size() <= 29){
         strcpy(_nombreProducto, nombreProducto.c_str());
@@ -44,24 +45,28 @@ void Producto::setNombreProducto(string nombreProducto){
 string Producto::getNombreProduco(){
     return _nombreProducto;
 }
+
 void Producto::setTipoProducto(int tipoProducto){
     _tipoProducto = _tipoProducto;
 }
 int Producto::getTipoProducto(){
     return _tipoProducto;
 }
+
 void Producto::setStock(int stock){
     _stock = stock;
 }
 int Producto::getStock(){
     return _stock;
 }
+
 void Producto::setPrecioUnitario(float precioUnitario){
     _precioUnitario = precioUnitario;
 }
 float Producto::getPrecioUnitario(){
     return _precioUnitario;
 }
+
 void Producto::setNombreProveedor(string nombreProveedor){
     if (nombreProveedor.size() <= 29){
         strcpy(_nombreProveedor, nombreProveedor.c_str());
@@ -72,6 +77,7 @@ void Producto::setNombreProveedor(string nombreProveedor){
 string Producto::getNombreProveedor(){
     return _nombreProveedor;
 }
+
 void Producto::setEstado(bool estado){
     _estado = estado;
 }
@@ -79,5 +85,5 @@ bool Producto::getEstado(){
     return _estado;
 }
 // METODOS
-//CrearProducto
-//MostrarProducto
+//    Producto crearProducto();
+//    void mostrarProducto(Producto producto);

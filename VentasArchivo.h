@@ -1,8 +1,9 @@
 #pragma once
 #include <string>
-#include "Ventas.h"
+#include "Venta.h"
+#include "Archivo.h"
 
-class VentasArchivo{
+class VentasArchivo: public Archivo{
 private:
     // PROPIEDAES
     Venta venta;

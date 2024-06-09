@@ -1,5 +1,5 @@
 #pragma once
-#include "Ventas.h"
+#include "Venta.h"
 #include "Producto.h"
 #include "Clientes.h"
 
@@ -29,7 +29,7 @@ public:
     int getIdProducto();
 
     void setCantidadProductoVendido(int cantidadProductoVendido);
-    int getCantidadProductoVendido;
+    int getCantidadProductoVendido();
 
     void setPrecioUnitario(float precioUnitario);
     float getPrecioUnitario();
@@ -38,7 +38,7 @@ public:
     bool getEstado();
 
     // METODOS
-    DetalleVenta cargarDetalleVenta();
-    void mostrarDetalleVenta(DetalleVentas detalleVenta);
+    DetallesVentas cargarDetalleVenta();
+    void mostrarDetalleVenta(DetallesVentas detalleVenta);
 
 };

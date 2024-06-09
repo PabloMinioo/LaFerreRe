@@ -7,7 +7,7 @@
 1717942526 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\fecha.h
 	<ctime>
 
-1717944136 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\aplicacion.cpp
+1717945031 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\aplicacion.cpp
 	<string>
 	<iostream>
 	"Aplicacion.h"
@@ -17,21 +17,23 @@
 	"InventarioArchivo.h"
 	"VentasArchivo.h"
 
-1717943914 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\inventarioarchivo.h
+1717969784 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\inventarioarchivo.h
 	<string>
 	"Producto.h"
+	"Archivo.h"
 
 1717944174 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\producto.h
 	<string>
 
-1717943914 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\ventasarchivo.h
+1717966622 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\ventasarchivo.h
 	<string>
-	"Ventas.h"
+	"Venta.h"
+	"Archivo.h"
 
-1717942542 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\ventas.h
+1717964594 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\ventas.h
 	"Fecha.h"
 
-1717942390 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\producto.cpp
+1717963894 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\producto.cpp
 	<iostream>
 	<string>
 	<cstdlib>
@@ -41,4 +43,67 @@
 1717944259 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\main.cpp
 	<iostream>
 	"Aplicacion.h"
+
+1717964734 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\venta.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstring>
+	"Venta.h"
+
+1717964594 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\venta.h
+	"Fecha.h"
+
+1717966489 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\archivo.cpp
+	"Archivo.h"
+
+1717966454 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\archivo.h
+	<string>
+	<cstdio>
+
+1717966764 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\ventasarchivo.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstring>
+	"VentasArchivo.h"
+	"Archivo.h"
+
+1717969627 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\clientes.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstring>
+	"Venta.h"
+	"Clientes.h"
+
+1717969580 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\clientes.h
+	<string>
+
+1717970953 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\detallesventasarchivo.cpp
+	<iostream>
+	<cstdlib>
+
+1717970011 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\inventarioarchivo.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstring>
+	"InventarioArchivo.h"
+	"Archivo.h"
+
+1717975766 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\detallesventas.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstring>
+	"Venta.h"
+	"Producto.h"
+	"Clientes.h"
+	"DetallesVentas.h"
+
+1717975662 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\detallesventas.h
+	"Venta.h"
+	"Producto.h"
+	"Clientes.h"
 

@@ -33,15 +33,23 @@
 		</Compiler>
 		<Unit filename="Aplicacion.cpp" />
 		<Unit filename="Aplicacion.h" />
+		<Unit filename="Archivo.cpp" />
+		<Unit filename="Archivo.h" />
+		<Unit filename="Clientes.cpp" />
 		<Unit filename="Clientes.h" />
+		<Unit filename="DetallesVentas.cpp" />
 		<Unit filename="DetallesVentas.h" />
+		<Unit filename="DetallesVentasArchivo.cpp" />
 		<Unit filename="DetallesVentasArchivo.h" />
 		<Unit filename="Fecha.cpp" />
 		<Unit filename="Fecha.h" />
+		<Unit filename="InventarioArchivo.cpp" />
 		<Unit filename="InventarioArchivo.h" />
 		<Unit filename="Producto.cpp" />
 		<Unit filename="Producto.h" />
-		<Unit filename="Ventas.h" />
+		<Unit filename="Venta.cpp" />
+		<Unit filename="Venta.h" />
+		<Unit filename="VentasArchivo.cpp" />
 		<Unit filename="VentasArchivo.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>

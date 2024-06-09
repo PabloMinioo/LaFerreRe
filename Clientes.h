@@ -1,7 +1,7 @@
-#pragama once
+#pragma once
 #include <string>
 
-class Cliente{
+class Clientes{
 private:
     // PROPIEDAES
     int _idCliente;
@@ -12,22 +12,22 @@ private:
     bool _estado;
 public:
     // CONSTRUCTOR POR DEFECTO
-    Cliente();
+    Clientes();
     // CONSTRUCTOR POR PARAMETROS
-    Cliente(int idCliente, std::string nombreCliente, std::string apellidoCliente, std::string direccionCliente, int telefonoCliente, bool estado);
+    Clientes(int idCliente, std::string nombreCliente, std::string apellidoCliente, std::string direccionCliente, int telefonoCliente, bool estado);
 
     // SET Y GET
     void setIdCliente(int idCliente);
     int getIdCliente();
 
     void setNombreCliente(std::string nombreCliente);
-    string getNombreCliente();
+    std::string getNombreCliente();
 
     void setApellidoCliente(std::string apellidoCliente);
-    string getApellidoCliente()
+    std::string getApellidoCliente();
 
     void setDireccionCliente(std::string direccionCliente);
-    string getDireccionCliente();
+    std::string getDireccionCliente();
 
     void setTelefonoCliente(int telefonoCliente);
     int getTelefonoCliente();
@@ -36,6 +36,6 @@ public:
     bool getEstado();
 
     // METODOS
-    Cliente crearCliente();
-    void mostrarCliente(Cliente cliente)
+    Clientes crearCliente();
+    void mostrarCliente(Clientes cliente);
 };

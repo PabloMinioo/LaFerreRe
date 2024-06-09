@@ -1,16 +1,17 @@
 #pragma once
 #include <string>
 #include "DetallesVentas.h"
+#include "Archivo.h"
 
-class DetallesVentasArchivo{
+class DetallesVentasArchivo: public Archivo{
 private:
     // PROPIEDADES
     DetallesVentas detalleVenta;
 public:
     // CONSTRUCTOR POR DEFECTO
-    DetallesVentas();
+    DetallesVentasArchivo();
     // CONSTRUCTOR POR PARAMETROS
-    DetallesVentas(std::string fileName);
+    DetallesVentasArchivo(std::string fileName);
 
     // METODOS
     void listarDetalleVenta();
