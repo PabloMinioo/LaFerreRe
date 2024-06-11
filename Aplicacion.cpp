@@ -25,6 +25,7 @@ void Aplicacion::menu() {
         case 1:
             system("cls");
             cout << "MENU VENTAS" << endl;
+            cout <<"WACHINEES"<<endl;
             // llamar menu ventas
             break;
         case 2:
