@@ -42,12 +42,12 @@ void Producto::setNombreProducto(string nombreProducto){
         strcpy(_nombreProducto, "SIN DATOS");
     }
 }
-string Producto::getNombreProduco(){
+string Producto::getNombreProducto(){
     return _nombreProducto;
 }
 
 void Producto::setTipoProducto(int tipoProducto){
-    _tipoProducto = _tipoProducto;
+    _tipoProducto = tipoProducto;
 }
 int Producto::getTipoProducto(){
     return _tipoProducto;
@@ -84,6 +84,38 @@ void Producto::setEstado(bool estado){
 bool Producto::getEstado(){
     return _estado;
 }
+
 // METODOS
-//    Producto crearProducto();
-//    void mostrarProducto(Producto producto);
+// CREAMOS EL PRODUCTO
+Producto Producto::crearProducto(){
+    int idProducto, tipoProducto, stock;
+    float precioUnitario;
+    string nombreProducto, nombreProveedor;
+
+    cout << "INGRESE EL ID DEL PRODUCTO: ";
+    cin >> idProducto;
+    cin.ignore();
+    cout << "INGRESE EL NOMBRE DEL PRODUCTO: ";
+    getline(cin, nombreProducto);
+    cout << "INGRESE EL TIPO DEL PRODUCTO: ";
+    cin >> tipoProducto;
+    cout << "INGRESE EL STOCK DEL PRODUCTO: ";
+    cin >> stock;
+    cout << "INGRESE EL PRECIO UNITARIO DEL PRODUCTO: ";
+    cin >> precioUnitario;
+    cin.ignore();
+    cout << "INGRESE EL NOMBRE DEL PROVEEDOR: ";
+    getline(cin, nombreProveedor);
+
+    return Producto(idProducto, nombreProducto, tipoProducto, stock, precioUnitario, nombreProveedor, true);
+}
+// RECIBE UN OBJETO TIPO PRODUCO Y LO MUESTRA EL PRODUCTO
+void Producto::mostrarProducto(Producto producto){
+    cout << "ID DEL PRODUCTO: " << producto.getIdProducto() << endl;
+    cout << "NOMBRE DEL PRODUCTO: " << producto.getNombreProducto() << endl;
+    cout << "TIPO DEL PRODUCTO: " << producto.getTipoProducto() << endl;
+    cout << "STOCK DEL PRODUCTO: " << producto.getStock() << endl;
+    cout << "PRECIO UNITARIO DEL PRODUCTO: " << producto.getPrecioUnitario() << endl;
+    cout << "NOMBRE DEL PROVEEDOR: " << producto.getNombreProveedor() << endl;
+    cout << "DISPONIBILIDAD DEL PRODUCTO: " << (producto.getEstado() ? "DISPONIBLE" : "NO DISPONIBLE") << endl;
+}

@@ -7,7 +7,7 @@
 1717942526 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\fecha.h
 	<ctime>
 
-1717945031 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\aplicacion.cpp
+1718259153 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\aplicacion.cpp
 	<string>
 	<iostream>
 	"Aplicacion.h"
@@ -17,15 +17,15 @@
 	"InventarioArchivo.h"
 	"VentasArchivo.h"
 
-1717969784 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\inventarioarchivo.h
+1718294441 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\inventarioarchivo.h
 	<string>
 	"Producto.h"
 	"Archivo.h"
 
-1717944174 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\producto.h
+1718255866 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\producto.h
 	<string>
 
-1717966622 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\ventasarchivo.h
+1718256067 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\ventasarchivo.h
 	<string>
 	"Venta.h"
 	"Archivo.h"
@@ -33,7 +33,7 @@
 1717964594 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\ventas.h
 	"Fecha.h"
 
-1717963894 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\producto.cpp
+1718302864 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\producto.cpp
 	<iostream>
 	<string>
 	<cstdlib>
@@ -44,7 +44,7 @@
 	<iostream>
 	"Aplicacion.h"
 
-1717964734 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\venta.cpp
+1717975946 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\venta.cpp
 	<iostream>
 	<string>
 	<cstdlib>
@@ -61,7 +61,7 @@
 	<string>
 	<cstdio>
 
-1717966764 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\ventasarchivo.cpp
+1717975946 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\ventasarchivo.cpp
 	<iostream>
 	<string>
 	<cstdlib>
@@ -80,30 +80,37 @@
 1717969580 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\clientes.h
 	<string>
 
-1717970953 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\detallesventasarchivo.cpp
+1717975946 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\detallesventasarchivo.cpp
 	<iostream>
+	<string>
 	<cstdlib>
+	<cstring>
+	"DetallesVentasArchivo.h"
+	"Archivo.h"
 
-1717970011 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\inventarioarchivo.cpp
+1718302601 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\inventarioarchivo.cpp
 	<iostream>
 	<string>
 	<cstdlib>
 	<cstring>
 	"InventarioArchivo.h"
+	"Producto.h"
 	"Archivo.h"
 
-1717975766 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\detallesventas.cpp
+1717975946 source:d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\detallesventas.cpp
 	<iostream>
 	<string>
 	<cstdlib>
 	<cstring>
-	"Venta.h"
-	"Producto.h"
-	"Clientes.h"
 	"DetallesVentas.h"
 
 1717975662 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\detallesventas.h
 	"Venta.h"
 	"Producto.h"
 	"Clientes.h"
+
+1717975795 d:\cosas compu\facultad utn\laboratorio de computación\laboratorio de computación 2\ejercicios archivos\laferrere\detallesventasarchivo.h
+	<string>
+	"DetallesVentas.h"
+	"Archivo.h"
 

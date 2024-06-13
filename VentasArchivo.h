@@ -18,7 +18,6 @@ public:
     void listarVentasID();
     void buscarVenta();
     void modificarVenta();
-    void menu();
 
     // METODOS RELACIONADOS A REGISTROS
     bool guardarRegistro(Venta venta);
@@ -28,4 +27,7 @@ public:
     int getCantidadRegistros();
     bool eliminarRegistro(int idVenta);
     bool modificarRegistro(int index, Venta venta);
+
+    // MENU
+    void menu();
 };

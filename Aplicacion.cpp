@@ -30,7 +30,7 @@ void Aplicacion::menu() {
         case 2:
             system("cls");
             cout << "MENU INVENTARIO" << endl;
-            // llamar menu inventario
+            inventarioArchivo.menu();
             break;
         case 0:
             system("cls");

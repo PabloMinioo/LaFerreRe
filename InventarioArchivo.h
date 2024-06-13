@@ -5,7 +5,6 @@
 
 class InventarioArchivo: public Archivo {
 private:
-    Producto producto;
 public:
     // CONSTRUCTOR POR DEFECTO
     InventarioArchivo();
@@ -14,14 +13,12 @@ public:
 
     // METODOS
     void guardarProducto();
-    void buscarProdutcto();
     void listarStock();
     void listarProductoID();
-    void elimiarProducto();
+    void eliminarProducto();
     void sumarStock();
     void restarStock();
     void modificarPrecioUnitario();
-    void menu();
 
     // METODOS RELACIONADOS A REGISTROS
     bool guardarRegistro(Producto producto);
@@ -31,5 +28,8 @@ public:
     int getCantidadRegistros();
     bool eliminarRegistro(int idProducto);
     bool modificarRegistro(int index, Producto producto);
+    bool isExist(int idProducto);
 
+    // MENU
+    void menu();
 };

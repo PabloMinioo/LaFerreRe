@@ -23,7 +23,7 @@ public:
     int getIdProducto();
 
     void setNombreProducto(std::string nombreProducto);
-    std::string getNombreProduco();
+    std::string getNombreProducto();
 
     void setTipoProducto(int tipoProducto);
     int getTipoProducto();
