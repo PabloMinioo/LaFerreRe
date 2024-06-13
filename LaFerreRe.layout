@@ -2,6 +2,7 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+<<<<<<< HEAD
 	<File name="InventarioArchivo.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="886" topLine="0" />
@@ -48,16 +49,28 @@
 		</Cursor>
 	</File>
 	<File name="Aplicacion.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+=======
+	<File name="Aplicacion.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> refs/remotes/origin/master
 		<Cursor>
 			<Cursor1 position="76" topLine="0" />
 		</Cursor>
 	</File>
+<<<<<<< HEAD
 	<File name="DetallesVentasArchivo.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="354" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="Fecha.cpp" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+=======
+	<File name="Fecha.h" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="426" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="DetallesVentasArchivo.cpp" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> refs/remotes/origin/master
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
@@ -67,9 +80,20 @@
 			<Cursor1 position="630" topLine="0" />
 		</Cursor>
 	</File>
+<<<<<<< HEAD
 	<File name="Fecha.h" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="426" topLine="0" />
+=======
+	<File name="VentasArchivo.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="306" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Clientes.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="623" topLine="0" />
+>>>>>>> refs/remotes/origin/master
 		</Cursor>
 	</File>
 	<File name="DetallesVentas.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -77,7 +101,41 @@
 			<Cursor1 position="825" topLine="8" />
 		</Cursor>
 	</File>
+<<<<<<< HEAD
 	<File name="VentasArchivo.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+=======
+	<File name="main.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="DetallesVentasArchivo.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Clientes.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="48" />
+		</Cursor>
+	</File>
+	<File name="Fecha.cpp" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="50" />
+		</Cursor>
+	</File>
+	<File name="DetallesVentas.cpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="47" />
+		</Cursor>
+	</File>
+	<File name="Aplicacion.cpp" open="1" top="1" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="780" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="Producto.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> refs/remotes/origin/master
 		<Cursor>
 			<Cursor1 position="3" topLine="0" />
 		</Cursor>
@@ -87,6 +145,7 @@
 			<Cursor1 position="815" topLine="0" />
 		</Cursor>
 	</File>
+<<<<<<< HEAD
 	<File name="InventarioArchivo.cpp" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="6148" topLine="159" />
@@ -107,4 +166,6 @@
 			<Cursor1 position="954" topLine="6" />
 		</Cursor>
 	</File>
+=======
+>>>>>>> refs/remotes/origin/master
 </CodeBlocks_layout_file>
